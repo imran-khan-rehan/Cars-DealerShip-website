@@ -868,9 +868,6 @@
 .grid-item ul li a:hover {
     color: #ffffff;
 }
-.banner1{
-
-}
 
 /* Gallery Page */
 /* ************** */
@@ -881,6 +878,7 @@
   overflow: hidden;
   position: relative;
 }
+
 
 .carousel-images {
   display: flex;
