@@ -869,3 +869,76 @@
 .grid-item ul li a:hover {
     color: #ffffff;
 }
+
+
+
+/*** blogs page css */
+.cover-image {
+    width: 100%;
+    height: 50vh;
+    background-image: url('cover-image.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.card {
+    width: calc(25% - 20px);
+    height: 200px;
+    background-color: #f0f0f0;
+    margin: 0 10px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.company-profile {
+    margin: 40px auto;
+    text-align: center;
+}
+
+.company-profile h2 {
+    color: #333;
+}
+
+.profile-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.profile-details img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.video-container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.image-text-container {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.image-text-container img {
+    width: 40%;
+    margin-right: 20px;
+}
+
+.image-text-container .text {
+    flex: 1;
+}
