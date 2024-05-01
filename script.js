@@ -74,3 +74,8 @@ $(document).ready(function() {
         $cardContainer.append($card);
     });
 });
+
+function displayImage(element) {
+    var mainImage = document.getElementById('mainImage-12');
+    mainImage.src = element.src;
+}
