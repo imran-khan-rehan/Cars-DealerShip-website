@@ -1138,11 +1138,11 @@
 
 .offering-cards{
   display: flex;
-  
+  justify-content: center;
   gap: 20px;
 }
 .card4{
-  width: 400px;
+  width: 200px;
   padding: 10px;
   background-color: white;
   text-align: center;
