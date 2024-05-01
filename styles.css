@@ -560,6 +560,7 @@
 .image-container img {
     max-width: 100%;
     height: auto;
+    
 }
 
 .forcedHeightUnset {
@@ -952,27 +953,11 @@
   opacity: 1;
 }
 
-.image-container1 {
-  position: relative;
-  overflow: hidden;
-}
-
-.image-wrapper1 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  transition: transform 0.3s ease;
-}
-
-.image-wrapper1 img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
 .image-wrapper-p{
   display: flex;
   justify-content: center;
   padding-top: 20px;
+  padding-bottom: 20px;
 }
 .image-wrapper-sec {
   display: flex;
@@ -981,4 +966,145 @@
   height: 80vh; /* Adjust as needed */
   overflow: hidden;
   width: 80%;
+}
+.image-container-helper{
+  margin-bottom: 20px;
+}
+.card-view-12 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-content-12 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.card-title-12 {
+  margin-bottom: 10px;
+}
+
+.card-description-12 {
+  margin-bottom: 20px;
+}
+
+.shop-button-12 {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s, color 0.3s;
+}
+
+.shop-button-12:hover {
+  background-color: #ff0000;
+  color: #000;
+  transform: scale(1.05);
+}
+
+/* Showroom page */
+/* ******************************** */
+
+/* Your custom CSS styles here */
+
+/* Your custom CSS styles here */
+
+.container-12 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.table-12 {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-12 th, .table-12 td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.table-12 th {
+  background-color: #000; /* Light gray background for table header */
+  color: white;
+}
+/* .thead-table{
+  background-color: #000;
+  
+} */
+
+
+.card-container-12 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.card-12 {
+  width: 300px;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-12 img {
+  
+  width: 100%;
+  height: 400px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.card-content-12 {
+  padding: 20px;
+}
+
+.card-content-12 h3 {
+  margin-top: 0;
+}
+
+.card-content-12 p {
+  margin-bottom: 10px;
+}
+
+.buy-button-12 {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.buy-button-12:hover {
+  background-color: #ff0000;
+}
+.car-prices-title{
+  background-color: #000;
+  color: white;
+  text-align: center;
+  padding: 20px;
 }
