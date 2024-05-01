@@ -756,9 +756,7 @@
     overflow-x: hidden; /* This will hide any content that overflows horizontally */
 }
 
-.curvedBottom {
-    /* Define your curved bottom style */
-}
+
 
 /* 5th component */
 
@@ -876,7 +874,7 @@
 .cover-image {
     width: 100%;
     height: 50vh;
-    background-image: url('cover-image.jpg');
+    background-image: url('./images/blog.png');
     background-size: cover;
     background-position: center;
 }
@@ -884,7 +882,7 @@
 .cards-container {
     display: flex;
     justify-content: space-around;
-    margin-top: 20px;
+    margin-top: 60px;
 }
 
 .card {
@@ -894,6 +892,13 @@
     margin: 0 10px;
     border-radius: 10px;
     transition: transform 0.3s ease;
+    color: black;
+}
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
 }
 
 .card:hover {
@@ -901,12 +906,15 @@
 }
 
 .company-profile {
-    margin: 40px auto;
+    margin: 100px auto;
     text-align: center;
 }
 
+
 .company-profile h2 {
-    color: #333;
+  margin: 100px;
+    color: white;
+    font-size:xx-large;
 }
 
 .profile-details {
@@ -914,12 +922,13 @@
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+    line-height: 1.5;
 }
 
 .profile-details img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+    width: 600px;
+    height: 400px;
+    
     margin-right: 20px;
 }
 
@@ -942,3 +951,313 @@
 .image-text-container .text {
     flex: 1;
 }
+
+.section {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.image-container {
+  flex: 1;
+}
+
+.image-container img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.text-container {
+  flex: 2;
+  padding: 0 20px;
+}
+
+.text-container p {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.section2 {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.image-container2 {
+  flex: 1;
+}
+
+.image-container2 img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.text-container2 {
+  flex: 1;
+  padding-right: 20px;
+ padding-left: 10%;
+}
+
+.text-container2 h3 {
+  font-size: 18px;
+}
+
+.text-container2 h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.text-container2 p {
+
+  margin-bottom: 20px;
+  font-size: large;
+  line-height: 1.8;
+}
+
+.list2 {
+  list-style: none;
+  counter-reset: my-counter;
+  padding-left: 20px;
+}
+
+.list-item2 {
+  position: relative;
+}
+
+.list-item2:before {
+  content: "•";
+  position: absolute;
+  left: -20px;
+  color: white; /* Set the color of the bullet point */
+}
+
+
+.cards-container2 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  color: black;
+}
+
+.card2 {
+  width: calc(25% - 20px);
+  height: 200px;
+  background-color:orange;
+  margin: 0 10px;
+  border-radius: 10px;
+  padding: 20px;
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card2:hover {
+  transform: scale(1.05);
+}
+
+.card2 h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.card2 p {
+  font-size: 16px;
+  text-align: center;
+}
+
+.second{
+  background-color: black !important;
+}
+
+.curvesec {
+  background-color: white!important;
+  margin-top: 20px; /* Adjust as needed */
+  position: relative;
+  overflow: hidden;
+}
+
+.curve::before {
+  content: "";
+  position: absolute;
+  top: -50px; /* Adjust to control the curve's height */
+  left: 0;
+  width: 100%;
+  height: 200px; /* Adjust to control the curve's curvature */
+  background-color: white; /* Curve color */
+  border-radius: 50%;
+  z-index: -1;
+}
+
+
+
+
+/***************/
+/*review page*/ 
+/**********/
+.container3 {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.review-content3 {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.review-text3 {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.review-text3 h2 {
+  color: #333333;
+  margin: 0;
+  font-size: 24px;
+  line-height: 1.3;
+}
+
+.review-image3 {
+  flex: 1;
+  padding-left: 20px;
+}
+
+.review-image3 img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+.offering-cards{
+  display: flex;
+  
+  gap: 20px;
+}
+.card4{
+  width: 400px;
+  padding: 10px;
+  background-color: white;
+  text-align: center;
+}
+.offeringsContent{
+  width: 80%;
+  margin: auto;
+}
+.cardDetails h3{
+  color:#541a25;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bolder !important;
+}
+.card-image img{
+  width: 100%;
+}
+.offerings{
+  background-image: radial-gradient(circle at center,rgba(0,0,0,.44) 0,rgba(0,0,0,.71) 100%),url('images/img1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 40px;
+  text-align: center;
+  padding-bottom: 30px;
+  font-family: sans-serif;
+}
+.offerings-content h2{
+  color: white;
+  margin-bottom: 150px;
+  font-size: 40px;
+  font-weight: lighter;
+}
+.card4 h3{
+  font-weight: lighter;
+}
+.card4 p{
+  font-size: 16px;
+  line-height: 25px;
+  margin-bottom: 50px;
+}
+.card4 button{
+  color: #fff;
+  background: #541a25;
+  border: 2px solid #6b6b6b;
+  padding: 0.7em 1.3em;
+  margin-top: 20px;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 980px){
+  .offering-cards{
+      flex-wrap: wrap;
+      justify-content: center;
+      
+  }
+  .card4{
+      width: 45%;
+  }
+}
+
+@media screen and (max-width: 766px){
+  .card4{
+      width: 90%;
+  }
+}
+
+
+.testimonials{
+  width: 100vw;
+  background-image: url('images/backgroundImage.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
+}
+.testimonialImage{
+  display: flex;
+  justify-content: center;
+}
+.testimonialsContent{
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  color: white;
+
+  padding-top: 50px;
+  padding-bottom: 30px;
+  font-family: sans-serif;
+}
+.testimonialsContent h3{
+  font-size: 50px;
+  margin-bottom: 60px;
+}
+.testimonialsContent p{
+  width: 70%;
+  margin: auto;
+  background-color: rgb(39, 36, 36,0.5); /* Adjust opacity as needed */
+
+  line-height: 25px;
+  font-size: 18px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+.testimonialsContent h5{
+  color: #f8b400;
+  font-size: 22px;
+}
+
+@media (max-width: 540px){
+.testimonialsContent p{
+  width: 100%;}
+}
+
+
+
+
+
